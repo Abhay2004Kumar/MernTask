@@ -11,7 +11,7 @@ const app=express()
 
 //config cors
 app.use(cors({
-    origin: "https://mern-task.vercel.app", // Allow requests from the frontend
+    origin: "https://mern-task-delta.vercel.app", // Allow requests from the frontend
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
     credentials: true, // Allow cookies to be sent
 }))
