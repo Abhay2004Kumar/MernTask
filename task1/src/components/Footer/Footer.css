@@ -1,0 +1,31 @@
+.footer-container {
+    width: 800px;
+    height: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.088px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 80px;
+  }
+  
+  .footer-link {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  

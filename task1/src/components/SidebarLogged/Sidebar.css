@@ -1,0 +1,41 @@
+.sidebar {
+  max-width: 280px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.location-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.location-field {
+  border: none;
+  font-size: 14px;
+  background-color: #c5cbd8;
+}
+
+.location-field::placeholder {
+  color: #000000;
+}
+
+.section-title {
+  font-weight: 600;
+}
+
+.group-image {
+  width: 36px;
+  height: 36px;
+}
+
+.group-name {
+  font-size: 14px;
+}
+
+.see-more {
+  cursor: pointer;
+  font-size: 12px;
+}
