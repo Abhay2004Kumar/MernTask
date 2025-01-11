@@ -34,7 +34,7 @@ const FormSection = ({ title = "Create Account" }) => {
 
     try {
       // Send data to backend API using axios
-      const response = await axios.post('https://merntask-agp4.onrender.com//api/v1/users/register', formData);
+      const response = await axios.post('https://merntask-agp4.onrender.com/api/v1/users/register', formData);
 
       if (response.status === 201) {
         alert("User registered successfully!");
